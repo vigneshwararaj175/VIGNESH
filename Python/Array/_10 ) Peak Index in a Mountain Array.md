@@ -1,5 +1,4 @@
-<img width="971" height="652" alt="image" src="https://github.com/user-attachments/assets/203a5629-ba4d-46ed-a9be-4e173cc09037" />
-
+<img width="951" height="662" alt="image" src="https://github.com/user-attachments/assets/2a7eee26-796f-4e78-92b0-4a72e8a7548f" />
 
 
 This is a **peak finding** problem in a mountain (bitonic) array.  

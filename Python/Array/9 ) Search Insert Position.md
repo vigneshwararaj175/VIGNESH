@@ -1,3 +1,7 @@
+<img width="972" height="656" alt="image" src="https://github.com/user-attachments/assets/fa4ef09f-db25-4ff9-8a90-c45174277518" />
+
+
+
 This is the classic **binary search** problem — we need to find either the exact position of `target` or the **insertion position** where it would maintain sorted order.  
 
 ---

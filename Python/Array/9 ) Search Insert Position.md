@@ -73,6 +73,3 @@ def searchInsert(nums, target):
 
 ---
 
-\[
-\boxed{\text{lower\_bound(target)}}
-\]

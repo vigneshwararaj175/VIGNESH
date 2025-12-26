@@ -1,4 +1,19 @@
 ## Corrected Solution:
+```python
+class Solution:
+    def findRotation(self, mat: List[List[int]], target: List[List[int]]) -> bool:
+        n = len(mat)
+        for _ in range(4):
+            if mat == target:
+                return True
+            rotated = [[0] * n for _ in range(n)]
+            for i in range(n):
+                for j in range(n):
+                    rotated[j][n - 1 - i] = mat[i][j]
+            mat = rotated
+        return False
+```
+
 
 ```python
 class Solution:
@@ -13,14 +28,6 @@ class Solution:
             # Rotate 90 degrees clockwise
             # Method 1: Using zip and reverse
             mat = [list(row)[::-1] for row in zip(*mat)]
-            
-            # Alternative method:
-            # rotated = [[0] * n for _ in range(n)]
-            # for i in range(n):
-            #     for j in range(n):
-            #         rotated[j][n - 1 - i] = mat[i][j]
-            # mat = rotated
-        
         return False
 ```
 

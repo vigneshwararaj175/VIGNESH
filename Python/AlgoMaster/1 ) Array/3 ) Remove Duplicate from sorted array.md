@@ -1,3 +1,20 @@
+### Own Solution (with help of Youtube )
+Link : https://www.youtube.com/shorts/FVldriHfbt8
+
+```python
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        i, j = 0, 0
+        for i in range(1, len(nums)):
+            if nums[j] == nums[i]:
+                nums[j] = nums[i]
+            else:
+                j += 1
+                nums[j] = nums[i]
+        return j + 1
+```
+
+
 ```python
 class Solution:
     def removeDuplicates(self, nums):
